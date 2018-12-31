@@ -17,6 +17,6 @@ public class ReverseTest {
     @Test
     public void Test2(){
         String result = rev.reverse("This is an easy Java Program");
-        assertEquals("sihT si na ysae avaJ margorP  ", result);
+        assertEquals("sihT si na ysae avaJ margorP ", result);
     }
 }
