@@ -1,20 +1,23 @@
+
 package com.stackroute;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-public class RegularTest {
+public class RegularTest
+{
     Regular r = new Regular();
 
     @Test
     public void regtest() {
-        String result = r.regular("This is Harry");
-        assertEquals("is Harry Here? true", result);
+        boolean result = r.regular("This is Harry");
+        assertTrue("is Harry here? true", result);
     }
 
     @Test
     public void regtest1() {
-        String result = r.regular("This is Henry");
-        assertEquals("is Harry Here? false", result);
+        boolean result = r.regular("This is Henry");
+        assertFalse("is Harry here? false", result);
     }
 }
