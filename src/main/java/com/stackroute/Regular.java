@@ -1,7 +1,14 @@
 package com.stackroute;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 public class Regular {
-    public String regular(String s)
+    public boolean regular(String s)
     {
-        return null;
+
+         String REGEX = "Harry";
+         Pattern p = Pattern.compile(REGEX);
+         Matcher m = p.matcher(s);
+
+        return Pattern.compile(REGEX).matcher(s).find();
     }
 }
