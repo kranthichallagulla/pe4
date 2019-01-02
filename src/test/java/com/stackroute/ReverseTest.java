@@ -17,10 +17,10 @@ public class ReverseTest {
     @Test
     public void Test2(){
         String result = rev.reverse("This is an easy Java Program");
-<<<<<<< HEAD
+
         assertEquals("sihT si na ysae avaJ margorP  ", result);
-=======
+
         assertEquals("sihT si na ysae avaJ margorP ", result);
->>>>>>> c66963bbcf7899f6262d4e7cef01f1ac159dbfa1
+
     }
 }
