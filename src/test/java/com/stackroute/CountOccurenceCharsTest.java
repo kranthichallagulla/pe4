@@ -8,7 +8,7 @@ public class CountOccurenceCharsTest {
     @Test
     public void occurenceTest(){
         int result=coc.countOfChars("Stack route training program",'a');
-        assertEquals(2,result);
+        assertEquals(3,result);
     }
     @Test
     public void occurenceTestfail(){

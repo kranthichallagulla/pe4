@@ -1,2 +1,5 @@
 com/stackroute/AppTest.class
+com/stackroute/CountOccurenceCharsTest.class
+com/stackroute/ParagraphSortTest.class
+com/stackroute/ReplaceStringTest.class
 com/stackroute/RegularTest.class
